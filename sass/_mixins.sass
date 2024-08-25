@@ -1,0 +1,41 @@
+
+@mixin label()
+	position: relative
+	margin: 0 auto
+	padding: 5px 12px
+	width: 112px
+	height: 24px
+	background-color: $var3
+	font-size: 11px
+	font-weight: 300
+	text-transform: uppercase
+	text-align: center
+	color: $var2
+	z-index: 2
+
+@mixin title()
+	position: relative
+	margin: 0 auto
+	margin-top: 38px
+	font-size: 38px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var4
+	text-align: center
+	line-height: 32px
+	z-index: 2
+
+@mixin subtitle()
+	position: relative
+	font-size: 17px
+	font-weight: 400
+	color: #222222
+	text-align: center
+	margin-top: 19px
+	line-height: 19px
+	z-index: 2
+
+@mixin btn_hover()
+	&:hover
+		background-image: none
+		background-color: $var5
